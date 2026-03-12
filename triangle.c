@@ -1,12 +1,10 @@
-// print a right angled triangle using numbers with loops 
+// print a right angled triangle using numbers with loops with vairables
 
-#include <stdio.h>
+#include <stdio.h>  
 int main() {
-    int rows, i, j;
-    printf("Enter the number of rows: ");
-    scanf("%d", &rows);
-    for (i = 1; i <= rows; i++) {
-        for (j = 1; j <= i; j++) {
+    int rows = 5;
+    for (int i = 1; i <= rows; i++) {
+        for (int j = 1; j <= i; j++) {
             printf("%d ", j);
         }
         printf("\n");
